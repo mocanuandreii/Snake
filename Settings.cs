@@ -17,12 +17,16 @@
         public static int Points { get; set; }
         public static bool GameOver { get; set; }
         public static Direction direction { get; set; }
+        public static int Speed1 { get; set; }
+        public static int Speed2 {get; set;}
 
         public Settings()
         {
             Width = 16;
             Height = 16;
             Speed = 16;
+            Speed1=10;
+            Speed2=22;
             Score = 0;
             Points = 100;
             GameOver = false;
